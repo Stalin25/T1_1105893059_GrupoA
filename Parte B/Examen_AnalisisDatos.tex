@@ -57,8 +57,12 @@
 
 Pregunta:
 
-¿Es aplicable la ingeniería de software cuando se elaboran webapps? Si es así, ¿cómo puede
-modificarse para que asimile las características únicas de éstas?
+¿Es aplicable la ingeniería de software cuando se elaboran webapps? Si es así, ¿cómo puede modificarse para que asimile las características únicas de éstas?
+
+
+
+
+Las webapps son una parte de todas las categorias de software exsistentes
 
 \newpage
 
@@ -101,6 +105,72 @@ La fuente proporciona un conjunto de datos de clase de grabación, el sexo, la e
 Junta Británica de Comercio (1990), Informe sobre la pérdida del 'Titanic' (SS). Junta Británica de Comercio Informe Investigación (reimpresión). Gloucester, Reino Unido: Allan Sutton Publishing.\\
 
 \end{justify}
+\newpage
+
+
+\begin{center} Dataset Titanic \end{center}
+
+\begin{Schunk}
+\begin{Soutput}
+, , Age = Child, Survived = No
+
+      Sex
+Class  Male Female
+  1st     0      0
+  2nd     0      0
+  3rd    35     17
+  Crew    0      0
+
+, , Age = Adult, Survived = No
+
+      Sex
+Class  Male Female
+  1st   118      4
+  2nd   154     13
+  3rd   387     89
+  Crew  670      3
+
+, , Age = Child, Survived = Yes
+
+      Sex
+Class  Male Female
+  1st     5      1
+  2nd    11     13
+  3rd    13     14
+  Crew    0      0
+
+, , Age = Adult, Survived = Yes
+
+      Sex
+Class  Male Female
+  1st    57    140
+  2nd    14     80
+  3rd    75     76
+  Crew  192     20
+\end{Soutput}
+\end{Schunk}
+
+\newpage
+
+¿Cuál es el número total de casos en el dataset?
+
+\begin{Schunk}
+\begin{Soutput}
+Number of cases in table: 2201 
+Number of factors: 4 
+Test for independence of all factors:
+	Chisq = 1637.4, df = 25, p-value = 0
+	Chi-squared approximation may be incorrect
+\end{Soutput}
+\begin{Soutput}
+[1] "Respuesta: El numero de casos en el dataset Titanic es:"
+\end{Soutput}
+\begin{Soutput}
+[1] 2201
+\end{Soutput}
+\end{Schunk}
+
+
 
 \centering
 \href{http://creativecommons.org/licenses/by-nc-sa/4.0/}{\includegraphics[width=4cm, height=2cm]{lic}}

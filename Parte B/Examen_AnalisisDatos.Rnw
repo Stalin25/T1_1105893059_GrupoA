@@ -56,8 +56,12 @@
 
 Pregunta:
 
-¿Es aplicable la ingeniería de software cuando se elaboran webapps? Si es así, ¿cómo puede
-modificarse para que asimile las características únicas de éstas?
+¿Es aplicable la ingeniería de software cuando se elaboran webapps? Si es así, ¿cómo puede modificarse para que asimile las características únicas de éstas?
+
+
+
+
+Las webapps son una parte de todas las categorias de software exsistentes
 
 \newpage
 
@@ -100,6 +104,27 @@ La fuente proporciona un conjunto de datos de clase de grabación, el sexo, la e
 Junta Británica de Comercio (1990), Informe sobre la pérdida del 'Titanic' (SS). Junta Británica de Comercio Informe Investigación (reimpresión). Gloucester, Reino Unido: Allan Sutton Publishing.\\
 
 \end{justify}
+\newpage
+
+
+\begin{center} Dataset Titanic \end{center}
+
+<<eval=TRUE, results=verbatim, echo=FALSE>>=
+Titanic
+
+@
+
+\newpage
+
+¿Cuál es el número total de casos en el dataset?
+
+<<eval=TRUE, results=verbatim, echo=FALSE>>=
+summary(Titanic)
+"Respuesta: El numero de casos en el dataset Titanic es:"
+sum(Titanic)
+@
+
+
 
 \centering
 \href{http://creativecommons.org/licenses/by-nc-sa/4.0/}{\includegraphics[width=4cm, height=2cm]{lic}}
