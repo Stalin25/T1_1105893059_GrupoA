@@ -1,0 +1,109 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{anysize} 
+\usepackage[spanish]{babel}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{multirow} % para las tablas
+\usepackage{graphicx}
+\usepackage{anysize}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\marginsize{1.50cm}{1.50cm}{1.50cm}{1.50cm} 
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\newcommand{\titulo}{ Universidad Nacional de Loja \\ \ \\ Ingeniería en Sistemas \\ \ \\ Examen\\ \ \\}
+\newcommand{\fecha}{\today}
+\SweaveOpts{echo=true}
+
+
+
+\pagestyle{empty}
+
+
+\begin{center}\includegraphics[height=3cm, width=4cm]{unl}\end{center}
+
+
+\Huge\bf\titulo
+\raggedright\bf{Autor:}
+\begin{center}
+\rm Stalin Geovanny Armijos\\
+\href{http://www.iralis.org/?q=node%2F10&paso=10&letra=&id=7220}{AFINF7220}
+\end{center}
+
+\raggedright\textbf{Docente:\\}
+\begin{center}
+\rm Ing. Pablo Ordoñez\\
+\href{http://www.iralis.org/?q=node%2F10&paso=10&letra=O&id=4796}{ECINF4796}
+\end{center} 
+
+\raggedright\bf{Ciclo:}
+\begin{center}
+\rm Sexto A
+\end{center}
+
+\begin{center}
+
+
+\huge\rm\fecha
+\end{center}
+
+
+\newpage
+\normalsize{}
+\begin{justify}
+
+Pregunta:
+
+¿Es aplicable la ingeniería de software cuando se elaboran webapps? Si es así, ¿cómo puede
+modificarse para que asimile las características únicas de éstas?
+
+\newpage
+
+Descripcion del Dataset Titanic
+
+\begin{center}\huge{}\textbf{La supervivencia de los pasajeros del Titanic\\ \ \\}\end{center}
+
+
+Descripción \\
+
+Este conjunto de datos proporciona información sobre el destino de los pasajeros en el primer viaje fatal del trasatlántico Titanic, que se resumen de acuerdo a la situación económica (clase), el sexo, la edad y la supervivencia.\\
+
+Uso\\
+
+  Titánico\\
+
+Formato\\
+
+Una matriz de 4-dimensional resultante de cruzada tabular 2201 observaciones sobre 4 variables. Las variables y sus niveles son los siguientes:\\
+
+No hay niveles de nombre
+Primera clase 1, segunda, tercera, Tripulación
+2 Soy Hombre, Mujer
+3 Niño, Adulto
+4 sobrevivió No, Sí\\
+Detalles\\
+
+El hundimiento del Titanic es un evento famoso, y nuevos libros siguen siendo publicado sobre el tema. Muchos hechos-de conocidas las proporciones de los pasajeros de primera clase a la política de "mujeres y niños primero ', y el hecho de que esa política no era un éxito completo en el ahorro de las mujeres y niños en la tercera clase se reflejan en la supervivencia tarifas de diversas clases de pasajeros.\\
+
+Estos datos fueron recogidos originalmente por la Junta Británica de Comercio en su investigación del hundimiento. Tenga en cuenta que no hay un acuerdo completo entre las fuentes primarias como a las cifras exactas a bordo, rescatados, o perdidos.\\
+
+Debido, en particular, a la película de gran éxito 'Titanic', los últimos años vieron un aumento en el interés público en el Titanic. Datos muy detallados sobre los pasajeros ya está disponible en Internet, en sitios como la Enciclopedia Titanica (http://www.rmplc.co.uk/eduweb/sites/phind).\\
+\\
+Fuente\\
+
+Dawson, Robert J. MACG. (1995), El 'Episodio inusual' Datos Revisited. Diario de Estadísticas de Educación, 3. http://www.amstat.org/publications/jse/v3n3/datasets.dawson.html\\
+
+La fuente proporciona un conjunto de datos de clase de grabación, el sexo, la edad y el estado de supervivencia para cada persona a bordo del Titanic, y se basa en datos recogidos originalmente por la Junta Británica de Comercio y reimpresos en:\\
+
+Junta Británica de Comercio (1990), Informe sobre la pérdida del 'Titanic' (SS). Junta Británica de Comercio Informe Investigación (reimpresión). Gloucester, Reino Unido: Allan Sutton Publishing.\\
+
+\end{justify}
+
+\centering
+\href{http://creativecommons.org/licenses/by-nc-sa/4.0/}{\includegraphics[width=4cm, height=2cm]{lic}}
+
+
+
+\end{document}
